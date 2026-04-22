@@ -2,7 +2,7 @@
 
 This repository contains a **minimal unconditional MNIST implementation** of a staged rectified-flow pipeline built around a **Flow Matching baseline**, followed by **reflow** and **one-step distillation**.
 
-The code is centered in `RectFlowMNIST.py` (please refer the google drive link for `RectFlowMNIST.ipynb`) and is designed to be easy to read, modify, and extend. The implementation stays intentionally compact while still covering the main empirical ideas:
+The code is centered in `rectflowmnist.py` (please refer the google drive link for `RectFlowMNIST.ipynb`) and is designed to be easy to read, modify, and extend. The implementation stays intentionally compact while still covering the main empirical ideas:
 
 - **Stage 1:** Flow Matching baseline with straight-line interpolation
 - **Stage 2:** First reflow / rectification pass
